@@ -5,6 +5,7 @@ import App from './App.tsx'
 import store from './store/index';
 import { Provider } from 'react-redux'
 
+console.log(store)
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
