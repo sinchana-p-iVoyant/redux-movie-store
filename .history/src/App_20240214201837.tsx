@@ -83,6 +83,4 @@ export default App
 
 // 1. Save the new movie in the local state.
 // 2. Add the new movie in local state to the Store.
-// 3. Fetch the movies array, from the store
-
-// 3. a. To display in - My Basket & My Liked Movies
+// 3. Fetch the moviesarray
