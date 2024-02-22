@@ -1,6 +1,15 @@
+<<<<<<< Updated upstream
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
+=======
+import { useState } from "react";
+// import './App.css'
+import { useSelector, useDispatch } from "react-redux";
+import {Movie} from './store/index'
+import {Card, CardActions, Button, Typography, CardContent} from '@mui/material'
+import { Favorite, FavoriteBorder, AddShoppingCart, RemoveShoppingCart } from "@mui/icons-material";
+>>>>>>> Stashed changes
 import './App.css'
 
 function App() {
